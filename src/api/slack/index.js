@@ -20,5 +20,9 @@ module.exports = (message) => {
     url,
   };
 
-  axios(options);
+  try {
+    axios(options);
+  } catch (e) {
+    
+  }
 };

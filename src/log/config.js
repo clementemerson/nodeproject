@@ -17,7 +17,7 @@ module.exports = {
   errorFile: {
     level: 'error',
     filename: errorFileName,
-    handleExceptions: true,
+    handleExceptions: false,
     json: true,
     maxsize: 5242880, // 5MB
     maxFiles: 5,
